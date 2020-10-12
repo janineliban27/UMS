@@ -5,23 +5,23 @@
             <div class="col-lg-12">
                  <div class="row">
                     <div class="form-group col-md-4">
-                        <input v-model="user.username" type="text" class="form-control" placeholder="Username"/>
+                        <input v-model="user.username" type="text" class="form-control" placeholder="Username" required />
                     </div>
                     <div class="form-group col-md-4">
-                        <input v-model="user.email"  type="email" class="form-control" placeholder="Email"/>
+                        <input v-model="user.email"  type="email" class="form-control" placeholder="Email" required/>
                     </div>
                     <div class="form-group col-md-4">
-                        <input v-model="user.password"  type="password" class="form-control" placeholder="Password" />
+                        <input v-model="user.password"  type="password" class="form-control" placeholder="Password"/>
                     </div>
                  </div>
              </div>
              <div class="col-lg-12">
                  <div class="row">
                     <div class="form-group col-md-4">
-                        <input v-model="user.firstname"  type="text" class="form-control" placeholder="Firstname"/>
+                        <input v-model="user.firstname"  type="text" class="form-control" placeholder="Firstname" required/>
                     </div>
                     <div class="form-group col-md-4">
-                        <input v-model="user.lastname"  type="text" class="form-control" placeholder="Lastname" />
+                        <input v-model="user.lastname"  type="text" class="form-control" placeholder="Lastname" required />
                     </div>
                     <div class="form-group col-md-4">
                         <select v-model="user.role" class="form-control">
@@ -34,13 +34,13 @@
             <div class="col-lg-12">
                  <div class="row">
                     <div class="form-group col-md-4">
-                        <input v-model="user.address"  type="text" class="form-control" placeholder="Address"/>
+                        <input v-model="user.address"  type="text" class="form-control" placeholder="Address" required/>
                     </div>
                     <div class="form-group col-md-4">
-                        <input v-model="user.postcode"  type="text" class="form-control" placeholder="Postcode" />
+                        <input v-model="user.postcode"  type="text" class="form-control" placeholder="Postcode" required/>
                     </div>
                      <div class="form-group col-md-4">
-                        <input v-model="user.contact_number"  type="text" class="form-control" placeholder="Contact Number" />
+                        <input v-model="user.contact_number"  type="text" class="form-control" placeholder="Contact Number" required/>
                     </div>
                  </div>
              </div>
