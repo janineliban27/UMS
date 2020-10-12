@@ -2,7 +2,7 @@
 User Management System
 
 <b>Clone the repository</b><br>
-  * git clone git@github.com/janineliban27/ums.git
+  * git clone git@github.com/janineliban27/UMS.git
 <hr>
 
 <b>Switch to the repo folder</b><br>
