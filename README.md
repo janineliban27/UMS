@@ -30,5 +30,8 @@ User Management System
   * php artisan migrate --seed
 <hr>
 
+<b>Run npm run watch</b><br>
+<hr>
+
 <b>Register a user with a role of "Administrator" to access the site</b>
   
